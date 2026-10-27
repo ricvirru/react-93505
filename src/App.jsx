@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './components/Header/Header'
+// import HookEffect from './components/HookEffect/HookEffect'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import NavBar from './components/Navbar/Navbar'
 
@@ -8,7 +9,8 @@ const App = () => {
     <>
       <Header />
       <NavBar />
-      <ItemListContainer greeting="Bienvenidos a mi tienda" />
+      <ItemListContainer greeting="Bienvenidos a mi tienda!!" />
+      {/* <HookEffect /> */}
     </>
   )
 }
